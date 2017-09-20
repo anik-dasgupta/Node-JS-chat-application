@@ -28,7 +28,7 @@ $(function(){
 	function displayUsers(users){
 		var html = '';
 		for (var i = 0; i < users.length; i++) {
-			html += '<div class="user" id="user' + users[i].id + '">' + users[i].nick + '</span>';
+			html += '<div class="user" id="user' + users[i].id + '">' + users[i].nick + '</div>';
 		}
 		$('#users').append(html);
 	    $('.user').click(function(e){
